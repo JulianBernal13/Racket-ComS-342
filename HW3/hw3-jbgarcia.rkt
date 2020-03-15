@@ -1,9 +1,9 @@
 #lang racket
 (provide (all-defined-out))
 
-(define pts1 '((0 1) (2 3) (1 0) (3 3) (5 0)))
-(define pts2 '((0 0) (1 1) (2 2) (3 3)))
-(define pts3 '((1 0) (2 1) (3 2) (4 3)))
+;(define pts1 '((0 1) (2 3) (1 0) (3 3) (5 0)))
+;(define pts2 '((0 0) (1 1) (2 2) (3 3)))
+;(define pts3 '((1 0) (2 1) (3 2) (4 3)))
 
 
 
@@ -157,14 +157,14 @@
 ;(define testx (compute_x pts2)) ; Can now just write testx on command line. Have to be after the function you are using though
 ;(define testy (compute_y pts2))
 ;(define meanx (mean_x pts2)) ;3/2
-(define compute1 (compute_mc pts1))
-(define compute2 (compute_mc pts2))
-(define compute3 (compute_mc pts3))
+;(define compute1 (compute_mc pts1))
+;(define compute2 (compute_mc pts2))
+;(define compute3 (compute_mc pts3))
 ;(define mbtm (compute_m_btm pts2 (mean_x pts2)))
 ;(define mtop (compute_m_top pts2 (mean_x pts2) (mean_y pts2)))
 ;(define m (get_m list )
 ;(define sub2 (subtract '((0 1)(1 1)) (mean_x '((0 1 ) ( 1 1)))) ) ;return 0.0
 
-(define computeG1 (gradient_mc pts1 0.001 0.01 5000))
-(define computeG2 (gradient_mc pts2 0.001 0.01 5000))
-(define computeG3 (gradient_mc pts3 0.001 0.01 5000))
+;(define computeG1 (gradient_mc pts1 0.001 0.01 5000))
+;(define computeG2 (gradient_mc pts2 0.001 0.01 5000))
+;(define computeG3 (gradient_mc pts3 0.001 0.01 5000))
